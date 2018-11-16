@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, test_mochiweb,
+ [{description, "test_mochiweb"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'test_mochiweb_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.
